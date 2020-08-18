@@ -132,7 +132,7 @@ resource "aws_instance" "es-app-master" {
 
   provisioner "remote-exec" {
     # Install Python for Ansible
-    inline = ["sudo apt update; sudo apt upgrade -y"]
+    inline = ["sudo apt update; sudo apt upgrade -y; sudo apt install ansible -y"]
 
     connection {
       host        = coalesce(self.public_ip, self.private_ip)
