@@ -7,7 +7,7 @@
      #- system
      - opendistro-elastic
    hosts:
-     all 
+     localhost 
 
 #  - name: Maintain OpenDistro Elastic's Kibana Configuration
 #    vars_files:
