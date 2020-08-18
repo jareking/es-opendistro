@@ -2,6 +2,10 @@
  - name: Maintain OpenDistro Elastic Configuration
    hosts: localhost 
    user: root
+   tasks: 
+      - name: "just execute a ls -lrt command"
+        shell: "ls -lrt"
+        register: "output"
    vars_files:
      - group_vars/main.yml
      #- "vars/{{ Environment }}/main.yml"
