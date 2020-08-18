@@ -7,7 +7,8 @@
      #- system
      - opendistro-elastic
    hosts: localhost 
-   connection: local
+   user: root
+
 #  - name: Maintain OpenDistro Elastic's Kibana Configuration
 #    vars_files:
 #      - group_vars/main.yml

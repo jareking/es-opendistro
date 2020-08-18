@@ -1,2 +1,1 @@
-[pull_mode_hosts]
-ip-172-16-10-51
+localhost ansible_connection=local
