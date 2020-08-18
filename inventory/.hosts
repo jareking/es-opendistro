@@ -1,0 +1,10 @@
+[all:children]
+elastic
+
+[elastic]
+es-app-master-1 ansible_host=18.210.6.43 ansible_python_interpreter=/usr/bin/python3
+es-app-master-2 ansible_host=3.233.222.6 ansible_python_interpreter=/usr/bin/python3
+es-app-master-3 ansible_host=35.168.58.131 ansible_python_interpreter=/usr/bin/python3
+
+#[kibana]
+#opend-es-03 ansible_host=IP3 ansible_python_interpreter=/usr/bin/python3
